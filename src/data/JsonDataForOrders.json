@@ -1,0 +1,110 @@
+[
+  {
+    "id": "84f5ad09-2583-49d5-8db8-ee81ab91eb65",
+    "brand": "Nike",
+    "title": "Jordans Indian",
+    "category": "Footwear",
+    "brick": "Sports Shoe",
+    "collection": null,
+    "gender": "Men, Women, Kids",
+    "mrp": "5555.00",
+    "wsp": "5555.00",
+    "style_code": null,
+    "style_2": null,
+    "image_1": "media/media/media/media/media/media/media/pexels-deybson-mallony-11883287.jpg",
+    "image_2": "",
+    "image_3": "",
+    "image_4": "",
+    "created": "2023-09-28 12:42:20.271223+00:00",
+    "uploaded_by": "admin",
+    "go_live_date": "2023-09-28 12:42:02+00:00",
+    "style_region": "South Indian, Western",
+    "stock_items": {
+      "title": "Summer's sports basics 4",
+      "total": "5",
+      "volume": "6",
+      "mrp": "3000.00",
+      "wsp": "3000.00",
+      "discount": "",
+      "items": {
+        "1": {
+          "size": "s",
+          "color": "White",
+          "qty": "1",
+          "mrp": "1000.00",
+          "wsp": "1000.00"
+        },
+        "2": {
+          "size": "m",
+          "color": "White",
+          "qty": "2",
+          "mrp": "500.00",
+          "wsp": "500.00"
+        },
+        "3": {
+          "size": "m",
+          "color": "Grey",
+          "qty": "2",
+          "mrp": "500.00",
+          "wsp": "500.00"
+        }
+      },
+      "id": "29eb5e66-b63e-4543-b2dc-1f6e178043ed"
+    },
+    "is_active": true
+  },
+  {
+    "id": "84f5ad09-2583-49d5-8db8-ee81ab91eb65",
+    "brand": "Nike",
+    "title": "Jordans Indian",
+    "category": "Footwear",
+    "brick": "Sports Shoe",
+    "collection": null,
+    "gender": "Men, Women, Kids",
+    "mrp": "5555.00",
+    "wsp": "5555.00",
+    "style_code": null,
+    "style_2": null,
+    "image_1": "media/media/media/media/media/media/media/pexels-deybson-mallony-11883287.jpg",
+    "image_2": "",
+    "image_3": "",
+    "image_4": "",
+    "created": "2023-09-28 12:42:20.271223+00:00",
+    "uploaded_by": "admin",
+    "go_live_date": "2023-09-28 12:42:02+00:00",
+    "style_region": "South Indian, Western",
+    "stock_items": {
+      "title": "Summer's sports basics 6",
+      "total": "5",
+      "volume": "6",
+      "mrp": "3000.00",
+      "wsp": "3000.00",
+      "discount": "",
+      "items": {
+        "1": {
+          "size": "s",
+          "color": "White",
+          "qty": "1",
+          "mrp": "1000.00",
+          "wsp": "1000.00"
+        },
+        "2": {
+          "size": "m",
+          "color": "White",
+          "qty": "2",
+          "mrp": "500.00",
+          "wsp": "500.00"
+        },
+        "3": {
+          "size": "m",
+          "color": "Grey",
+          "qty": "2",
+          "mrp": "500.00",
+          "wsp": "500.00"
+        }
+      },
+      "id": "cb6ecc14-79a4-4e1d-9b8b-f6dd815ac0b8"
+    },
+    "is_active": true
+  }
+]

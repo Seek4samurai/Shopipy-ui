@@ -1,0 +1,24 @@
+.Container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.Center label {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+.Field {
+  margin: 0.6rem 0;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+.Field input {
+  height: 25px;
+}

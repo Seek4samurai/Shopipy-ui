@@ -1,0 +1,99 @@
+.Container {
+  width: 450px;
+  height: fit-content;
+  border: solid 2px #d9d9d9;
+  background-color: white;
+  margin: 0.2rem 0.5rem;
+  padding: 0.1rem;
+  cursor: pointer;
+}
+
+.imgContainer {
+  width: 450px;
+  height: 600px;
+}
+.imgContainer img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 1186px) {
+  .Container {
+    width: 340px;
+  }
+  .imgContainer {
+    width: 340px;
+    height: 400px;
+  }
+}
+@media (max-width: 766px) {
+  .Container {
+    width: 220px;
+    margin: 0;
+  }
+  .imgContainer {
+    width: 220px;
+    height: 300px;
+  }
+}
+@media (max-width: 462px) {
+  .Container {
+    width: 45vw;
+    height: 40vh;
+  }
+  .imgContainer {
+    width: 45vw;
+    height: 30vh;
+  }
+}
+.Metadata {
+  padding: 0 1rem;
+  color: #1f1f1f;
+}
+.details {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.Title {
+  margin: 0;
+  text-decoration: underline;
+}
+
+.Brand {
+  font-style: italic;
+  margin: 0;
+}
+.Price,
+.Item,
+.Size,
+.Color,
+.Sex,
+.Quantity {
+  margin: 0;
+}
+
+.Quantity {
+  font-weight: bold;
+}
+
+@media (max-width: 1186px) {
+  .Title {
+    font-size: 1rem;
+  }
+  .Brand {
+    font-size: 0.8rem;
+  }
+  .Price,
+  .Item,
+  .Size,
+  .Color {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 766px) {
+}
+@media (max-width: 462px) {
+}

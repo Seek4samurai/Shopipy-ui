@@ -1,0 +1,59 @@
+.Container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px 10px;
+  border-bottom: 1px solid black;
+}
+.ButtonsSection {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.Right,
+.Left {
+  display: flex;
+  flex-direction: column;
+}
+.SortOptions {
+  display: flex;
+  justify-content: flex-end;
+}
+.SortOptions ul {
+  text-align: right;
+}
+.SortOptions li {
+  font-weight: 600;
+  cursor: pointer;
+  list-style: none;
+  padding: 0.2rem;
+}
+.SortOptions li:hover {
+  color: white;
+  background-color: black;
+}
+.FilterOptions {
+  display: flex;
+  justify-content: flex-start;
+}
+.FilterList {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+.FilterList li {
+  margin: 0 10px;
+}
+.FilterList h4 {
+  margin: 5px 0;
+}
+
+.ApplyBtn {
+  display: flex;
+  justify-content: center;
+}
+.ApplyBtn button {
+  width: 15%;
+  margin: 5px;
+}

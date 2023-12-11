@@ -1,0 +1,251 @@
+.Center {
+  display: flex;
+  justify-content: center;
+}
+.Container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 1500px;
+  margin-top: 15px;
+}
+.Left {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+.Heading {
+  margin-bottom: 15px;
+  font-size: 1.8rem;
+  font-weight: 800;
+}
+.ItemContainer {
+  display: flex;
+  flex-direction: column;
+  width: 850px;
+  border: 1px black solid;
+  padding: 0 1rem;
+}
+.ItemBox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 1rem 0;
+  border-bottom: 1px black solid;
+  background-color: rgb(255, 255, 255);
+}
+.ImgContainer {
+  width: 200px;
+  height: 300px;
+  border: 1px solid black;
+}
+.ImgContainer img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* Minor Styles */
+.Desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: 15px;
+  font-size: 1.1rem;
+  width: 75%;
+}
+.ItemTitle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.ItemTitle div {
+  font-size: 1.3rem;
+}
+.semiTitle {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+.Price {
+  text-decoration: underline;
+  font-size: 1.1rem;
+  margin: 10px 0;
+  padding: 10px;
+}
+.Discount {
+  padding: 6px;
+  width: fit-content;
+  border-radius: 10px;
+  background-color: rgb(41, 220, 41);
+  margin-bottom: 5px;
+}
+.tableSection {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.table {
+  height: 230px;
+  width: 100%;
+  overflow-y: scroll;
+  overflow-x: scroll;
+}
+/* width */
+.table::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+/* Track */
+.table::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+/* Handle */
+.table::-webkit-scrollbar-thumb {
+  background: #888;
+}
+/* Handle on hover */
+.table::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.btnSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  width: 40%;
+}
+.btnSection button,
+.btnSection a {
+  font-size: 0.8rem;
+  text-decoration: none;
+  width: 120px !important;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ItemContainer2 {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  border: 1px black solid;
+  padding: 0 1rem;
+}
+.ThirdTitle {
+  font-size: 1.2rem;
+  font-weight: 500;
+  padding: 5px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.Total {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 1.4rem;
+  font-weight: 700;
+  padding: 5px 0;
+  margin-top: 15px;
+  border-top: 1px solid black;
+}
+.Checkout {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+@media (max-width: 1480px) {
+  .ItemContainer {
+    width: 850px;
+  }
+  .ItemContainer2 {
+    width: 360px;
+    padding: 0rem 0.6rem;
+  }
+}
+@media (max-width: 1366px) {
+  .Left {
+    margin-right: 5px;
+  }
+  .ItemContainer {
+    width: 620px;
+    padding: 0 0.5rem;
+  }
+  .Heading {
+    font-size: 1.2rem;
+  }
+  .ItemBox {
+    padding: 0.5rem 0;
+  }
+  .ImgContainer {
+    width: 160px;
+    height: 250px;
+  }
+  .Desc {
+    margin-left: 5px;
+    font-size: 1rem;
+  }
+  .ItemTitle div {
+    font-size: 1rem;
+  }
+  .Price {
+    font-size: 1rem;
+    padding: 10px 0px;
+  }
+  .table {
+    height: 230px;
+    width: 70%;
+  }
+  .table * {
+    padding: 0.6rem !important;
+  }
+  .btnSection {
+    width: 30%;
+  }
+  .btnSection button,
+  .btnSection a {
+    width: fit-content !important;
+    font-size: 0.7rem;
+    padding: 8px;
+  }
+}
+@media (max-width: 1036px) {
+  .Container {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .ItemContainer {
+    width: 90%;
+  }
+  .ItemBox {
+    justify-content: center;
+  }
+  .Left {
+    align-items: center;
+  }
+  .Right {
+    margin: 15px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (max-width: 556px) {
+  .ItemBox {
+    flex-direction: column;
+  }
+  .ItemTitle {
+    flex-direction: column;
+  }
+  .tableSection {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .table {
+    width: 100%;
+  }
+}

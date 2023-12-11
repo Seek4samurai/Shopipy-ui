@@ -1,0 +1,24 @@
+.Primary {
+  border: none;
+  padding: 0.7rem;
+  cursor: pointer;
+  font-weight: 700;
+  color: white;
+  background-color: #1a1a1a;
+}
+.Primary:hover {
+  background-color: #4a4a4a;
+}
+
+.Secondary {
+  border: none;
+  padding: 0.7rem;
+  cursor: pointer;
+  font-weight: 700;
+  color: black;
+  background-color: #ffffff;
+}
+.Secondary:hover {
+  color: rgb(255, 255, 255);
+  background-color: #4a4a4a;
+}
