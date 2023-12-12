@@ -94,7 +94,7 @@ export const fetchCart = async () => {
     await refreshAccessToken();
     accessToken = localStorage.getItem("access_token");
 
-    const updatedRes = await fetch(`${base_url}/customers/cart/save/`, {
+    const updatedRes = await fetch(`${base_url}/customers/cart/`, {
       method: "GET",
       headers: {
         HTTP_X_CSRFTOKEN: csrfToken,

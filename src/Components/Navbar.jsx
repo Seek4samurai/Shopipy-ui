@@ -30,7 +30,7 @@ const Navbar = () => {
   return (
     <>
       <div className={style.Container}>
-        <div className={style.navbar_heading}>Ajio Prebook plus</div>
+        <div className={style.navbar_heading}>ShopiPy-UI</div>
         {isLoggedIn ? (
           <>
             <div className={style.Cart} onClick={() => navigate("/cart")}>
