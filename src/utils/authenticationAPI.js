@@ -63,9 +63,11 @@ export const refreshAccessToken = async () => {
   const res = await fetch(`${base_url}/customers/refresh-token/`, {
     method: "POST",
     headers: {
-      "Content-Type": "application/x-www-form-urlencoded",
+      "Content-Type": "application/json",
     },
-    body: `refresh_token=${refreshToken}`,
+    body: JSON.stringify({
+      refresh_token: refreshToken,
+    }),
   });
 
   const data = await res.json();
@@ -74,6 +76,8 @@ export const refreshAccessToken = async () => {
     const res = await fetch(`${base_url}/customers/logout/`, {
       method: "POST",
     });
+
+    window.location.reload();
 
     if (res.ok) {
       localStorage.removeItem("access_token");
